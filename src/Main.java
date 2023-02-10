@@ -1,10 +1,10 @@
 public class Main {
-    public static void main(String[] args)    {
+    public static void main(String[] args) {
 
-        int stoimost = 15832;
+        int price = 15832;
         int bonus = 20;
-        int mili = stoimost / bonus;
+        int miles = price / bonus;
 
-        System.out.println(mili);
+        System.out.println(miles);
     }
 }
